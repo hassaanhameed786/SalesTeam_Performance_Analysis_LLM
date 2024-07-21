@@ -91,10 +91,10 @@ This project provides a FastAPI-based web service to analyze sales data using Op
     }
     ```
     
-2. **Testing  Endpoints properly**
-3. Prompt Engineering 
 
 ## Work Needed
+- Testing  Endpoints properly
+3.- Prompt Engineering 
 
 - need more changes for the endpoints for the specifc usecases
 -  and make a mircoservice architecture 
