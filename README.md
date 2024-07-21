@@ -82,22 +82,8 @@ This project provides a FastAPI-based web service to analyze sales data using Op
 
 
 
-1. **Prepare your sales data file (`sales_data.csv`):**
 
-    ```csv
-    salesperson,sales_amount,date
-    Alice,2000,2023-01-01
-    Bob,1500,2023-01-02
-    Alice,2500,2023-01-03
-    ```
-
-2. **Send the file to the API:**
-
-    ```sh
-    curl -X POST "http://127.0.0.1:8000/analyze-sales-data/" -F "file=@sales_data.csv"
-    ```
-
-3. **Receive the analysis:**
+1. **Receive the analysis:**
 
     ```json
     {
@@ -105,8 +91,8 @@ This project provides a FastAPI-based web service to analyze sales data using Op
     }
     ```
     
-4. **Testing  Endpoints properly**
-5. Prompt Engineering 
+2. **Testing  Endpoints properly**
+3. Prompt Engineering 
 
 ## Work Needed
 
